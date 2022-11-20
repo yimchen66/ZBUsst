@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">众帮平台</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="mainlist_text">订单</string>
+    <string name="message_text">消息</string>
+    <string name="personal_text">个人中心</string>
+
+    <string name="tabtitle_mian">上理众帮</string>
+    <string name="tabtitle_message">我的消息</string>
+    <string name="tabtitle_personal">个人中心</string>
+
+    <!-- 首页筛选-->
+    <string name="mainlist_shai_price">价格</string>
+    <string name="mainlist_shai_type">类型</string>
+    <string name="mainlist_shai_time">时间</string>
+
+    <string name="detail_good_beizhu">订单备注</string>
+    <string name="detail_good_hostname">发起卖家</string>
+    <string name="detail_good_uploadtime">上传时间</string>
+    <string name="detail_good_maijia">联系卖家</string>
+
+</resources>

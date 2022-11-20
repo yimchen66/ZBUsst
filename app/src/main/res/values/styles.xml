@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <style name="Theme.HeadPhototest" parent="XUITheme.Phone">-->
+
+<!--        &lt;!&ndash; 自定义自己的主题样式 &ndash;&gt;-->
+
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="android:textAllCaps">false</item>-->
+
+<!--    </style>-->
+<!--  导航栏字体-->
+    <style name="tab_text">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+<!--  首页订单类型-->
+    <style name="mainlist_goodtype">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+<!--  首页订单简介-->
+    <style name="mainlist_goodintroduct">
+        <item name="android:textSize">14dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">-68dp</item>
+        <item name="android:textColor">#1D1D1D</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">6dp</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+<!--  首页订单价格-->
+    <style name="mainlist_goodprice">
+        <item name="android:layout_width">wrap_content</item>
+<!--        <item name="android:layout_weight">1</item>-->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mainlist_goodtype</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+
+<!--  首页订单上传时间-->
+    <style name="mainlist_uploadtime">
+        <item name="android:layout_width">match_parent</item>
+<!--        <item name="android:layout_weight">1</item>-->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mainlist_uploadtime</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+<!--  首页筛选文字-->
+    <style name="mainlist_shai">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- dialog样式 -->
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 遮罩层 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+
+    <!-- dialog的动画 -->
+    <style name="main_menu_animStyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out_anim</item>
+    </style>
+
+
+<!--dialog的内容格式-->
+    <style name="dialog_choosetype_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+    <!-- 设置Toolbar标题字体的大小 -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

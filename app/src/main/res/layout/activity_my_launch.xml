@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#EFEFEF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_mylaunch"
+        android:layout_width="fill_parent"
+        app:titleTextColor="@color/white"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        android:layout_height="45sp"
+        android:background="@color/personalcolor"
+        app:navigationIcon="@drawable/back">
+    </androidx.appcompat.widget.Toolbar>
+
+    <include layout="@layout/search_layout"></include>
+
+    <LinearLayout
+        android:id="@+id/ll_launch_shaixuan"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/launch_tv_unreceive"
+            android:text="未被接单"
+            android:textSize="16dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/launch_tv_whole"
+            android:text="全部"
+            android:layout_width="0dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/launch_tv_transcation"
+            android:text="交易中"
+            android:layout_width="0dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.example.zbusst.MyViews.MyScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical">
+        <LinearLayout
+            android:id="@+id/ll_launch_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.example.zbusst.MyViews.MyListViewForScrollView
+                android:id="@+id/lv_mylaunch"
+                android:divider="@null"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </com.example.zbusst.MyViews.MyScrollView>
+
+
+</LinearLayout>

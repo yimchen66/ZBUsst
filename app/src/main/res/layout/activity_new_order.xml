@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/neworder_tb"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/back"
+        android:background="@color/personalcolor"
+        app:title="新建订单" />
+
+    <ScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewCount,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="1.请选择订单需求" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/tv_tip"
+                    android:background="#E5E5E5"
+                    android:dropDownVerticalOffset="45dp"
+                    android:spinnerMode="dropdown" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="2.具体需求" />
+
+            <EditText
+                android:id="@+id/et_order_intro"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#E5E5E5"
+                android:hint="请输入你的需求" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="3.支付/收取的佣金" />
+
+            <EditText
+                android:id="@+id/et_order_price"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="4.上传图片" />
+
+            <ImageView
+                android:id="@+id/iv_addimage"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/addimage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="5.备注：" />
+
+            <EditText
+                android:id="@+id/et_order_beizhu"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#E5E5E5"
+                android:hint="具体的地址等" />
+
+            <Button
+                android:id="@+id/btn_sumbit"
+                android:text="立 即 发 布"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:background="@color/personalcolor"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/detail_loading"
+        android:src="@drawable/loading"
+        android:layout_gravity="center"
+        android:layout_marginTop="-400dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+</LinearLayout>

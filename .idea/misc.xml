@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1855" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_bottom_corner_no_top_line.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_button.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_dialog_first.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_dialog_tips.xml" value="0.1555" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_goodpic.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_individual_fir.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_line.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_message_line.xml" value="0.158" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_mylaunch_btn.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_mylaunch_btn_click.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_mylaunch_btn_unclick.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_mylaunch_whole.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_no_corner.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_searchbutton.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_searchbutton_mylaunch.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_searchcolor.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/drawable/shape_searchcolor_mylaunch.xml" value="0.1285" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_baidu_gps.xml" value="0.3016304347826087" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_detail_good.xml" value="0.271286231884058" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_detail_good_intransaction.xml" value="0.2966485507246377" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_individual.xml" value="0.28442028985507245" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_individual_my_wallet.xml" value="0.291213768115942" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_main.xml" value="0.3220108695652174" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_money_transaction.xml" value="0.27445652173913043" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_my_accept.xml" value="0.2871376811594203" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_my_launch.xml" value="0.28442028985507245" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_my_wallet.xml" value="0.291213768115942" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_new_order.xml" value="0.2776268115942029" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_pay.xml" value="0.3061594202898551" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/activity_welcome.xml" value="0.3029891304347826" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/dailog_fail.xml" value="0.2966485507246377" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/dialog_choosepic_layout.xml" value="0.3079710144927536" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/dialog_success.xml" value="0.2966485507246377" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/dialog_tips_layout.xml" value="0.2966485507246377" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/fragment_blank__fis_page.xml" value="0.28442028985507245" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/fragment_blank__sec_page.xml" value="0.2921195652173913" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/fragment_blank__thi_page.xml" value="0.28442028985507245" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/goodslist_layout.xml" value="0.28442028985507245" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/item_message1.xml" value="0.31476449275362317" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/messagelist_layout.xml" value="0.3188405797101449" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/messagelist_layout2.xml" value="0.3079710144927536" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/moneytrans_layout.xml" value="0.27445652173913043" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/mylaunch_layout.xml" value="0.28442028985507245" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/search_layout.xml" value="0.28442028985507245" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/shaixuan_layout.xml" value="0.31476449275362317" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/layout/tab_layout.xml" value="0.31476449275362317" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/AndroidThings/AndroidApps/ZBUsst/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

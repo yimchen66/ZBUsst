@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.BlankFragment_SecPage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_moneytrans"
+        android:layout_width="fill_parent"
+        app:titleTextColor="@color/white"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        android:layout_height="45sp"
+        android:background="@color/personalcolor"
+        app:navigationIcon="@drawable/back">
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.example.zbusst.MyViews.MyScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.example.zbusst.MyViews.MyListViewForScrollView
+                android:id="@+id/moneytrans_list"
+                android:divider="@null"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </com.example.zbusst.MyViews.MyScrollView>
+
+</LinearLayout>

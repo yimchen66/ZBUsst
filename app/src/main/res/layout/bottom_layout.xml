@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="55dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/grey"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/tab_main"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tab_main_pic"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/selector_tab_main"/>
+
+        <TextView
+            android:id="@+id/tab_main_text"
+            android:text="@string/mainlist_text"
+            style="@style/tab_text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_message"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tab_message_pic"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/selector_tab_message"/>
+
+        <TextView
+            android:id="@+id/tab_tab_message_text"
+            android:text="@string/message_text"
+            style="@style/tab_text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_personal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tab_personal_pic"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/selector_tab_personal"/>
+
+        <TextView
+            android:id="@+id/tab_personal_text"
+            android:text="@string/personal_text"
+            style="@style/tab_text"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

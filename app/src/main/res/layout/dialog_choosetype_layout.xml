@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_dialog_first"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_kuaidi"
+        android:text="代拿快递"
+        style="@style/dialog_choosetype_text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_xueye"
+        android:text="学业帮助"
+        style="@style/dialog_choosetype_text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_ershou"
+        android:text="出二手货"
+        style="@style/dialog_choosetype_text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_qita"
+        android:text="其他"
+        style="@style/dialog_choosetype_text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:text="取消"
+        style="@style/dialog_choosetype_text"/>
+
+
+</LinearLayout>
